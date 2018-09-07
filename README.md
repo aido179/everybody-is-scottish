@@ -1,7 +1,7 @@
 
 
-# Extension Boilerplate
-A chrome extension boilerplate including a sample UI page, a normal js file and a background js file. The repo also contains jQuery for convenience. 
+# Everybody is Scottish
+A silly chrome extension to take a tweet, and convert some words into other words based on a dictionary. In this case, it makes the tweet sound like it came from somebody on /r/scottishpeopletwitter.
 
 
 >Copyright (c) 2016 Aidan Breen
