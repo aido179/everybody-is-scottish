@@ -6,7 +6,7 @@
  -->
 <html>
   <head>
-    <title>Getting Started Extension's Popup</title>
+    <title>Scottish People Twitter</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
     <style>
       body {
@@ -15,18 +15,21 @@
         text-align:center;
       }
     </style>
-
+    <link rel="stylesheet" type="text/css" href="popup.css">
     <!--
       - JavaScript and HTML must be in separate files: see our Content Security
       - Policy documentation[1] for details and explanation.
       -
       - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
      -->
-    <script src="jquery-3.1.1.min.js"></script>
-    <script src="popup.js"></script>
+    <script src="jquery.js"></script>
+
   </head>
   <body>
-    <h1>Hello World.</h1>
-    <span class="message"></span>
+    <h1>Ye ready tae go?</h1>
+    Translate tweets: <input type="checkbox" id="translateCheck">
+    <div id="status"></div>
+    <button id="save" >Save</button>
+    <script src="popup.js"></script>
   </body>
 </html>
